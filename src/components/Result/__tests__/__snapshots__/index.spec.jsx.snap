@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Result /> when there are no results should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Result
+    results={null}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="h-100 w-100 flex justify-center items-center"
+      >
+        <EmptyResult />
+      </div>,
+      "className": "h-100 w-100 pa3 bg-light-gray bb br b--moon-gray overflow-scroll",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <EmptyResult />,
+        "className": "h-100 w-100 flex justify-center items-center",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="h-100 w-100 flex justify-center items-center"
+        >
+          <EmptyResult />
+        </div>,
+        "className": "h-100 w-100 pa3 bg-light-gray bb br b--moon-gray overflow-scroll",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <EmptyResult />,
+          "className": "h-100 w-100 flex justify-center items-center",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<Result /> when there are results should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Result
+    results={
+      Array [
+        Object {
+          "id": 1,
+          "runtime": 123,
+          "succeeded": true,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="h400 w-100 pb3"
+        >
+          <ResultItem
+            result={
+              Object {
+                "id": 1,
+                "runtime": 123,
+                "succeeded": true,
+              }
+            }
+          />
+        </div>,
+      ],
+      "className": "h-100 w-100 pa3 bg-light-gray bb br b--moon-gray overflow-scroll",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": <ResultItem
+            result={
+              Object {
+                "id": 1,
+                "runtime": 123,
+                "succeeded": true,
+              }
+            }
+          />,
+          "className": "h400 w-100 pb3",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "result": Object {
+              "id": 1,
+              "runtime": 123,
+              "succeeded": true,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="h400 w-100 pb3"
+          >
+            <ResultItem
+              result={
+                Object {
+                  "id": 1,
+                  "runtime": 123,
+                  "succeeded": true,
+                }
+              }
+            />
+          </div>,
+        ],
+        "className": "h-100 w-100 pa3 bg-light-gray bb br b--moon-gray overflow-scroll",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": <ResultItem
+              result={
+                Object {
+                  "id": 1,
+                  "runtime": 123,
+                  "succeeded": true,
+                }
+              }
+            />,
+            "className": "h400 w-100 pb3",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "result": Object {
+                "id": 1,
+                "runtime": 123,
+                "succeeded": true,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,551 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AccountModal /> when it is closed should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AccountModal
+    onClose={[MockFunction]}
+    open={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "animationDuration": 500,
+      "center": true,
+      "children": Array [
+        <div
+          className="b f3"
+        >
+          Account
+        </div>,
+        <div
+          className="h-100 w-100 flex flex-column justify-center items-center near-black"
+        >
+          <Account
+            fill="gray"
+            height="80"
+            width="80"
+          />
+          <p
+            className="gray f4 pt3"
+          >
+            There is nothing here, yet.
+          </p>
+        </div>,
+      ],
+      "classNames": Object {
+        "closeButton": "close-modal",
+        "modal": "h-50 w-25",
+      },
+      "classes": Object {
+        "closeButton": "styles_closeButton__20ID4",
+        "closeIcon": "styles_closeIcon__1QwbI",
+        "modal": "styles_modal__gNwvD",
+        "overlay": "styles_overlay__CLSq-",
+        "overlayCenter": "styles_overlayCenter__YHoO7",
+        "transitionEnter": "styles_transitionEnter__3j_-a",
+        "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+        "transitionExit": "styles_transitionExit__1KmEf",
+        "transitionExitActive": "styles_transitionExitActive__1nQXw",
+      },
+      "closeIconSize": 28,
+      "closeIconSvgPath": <path
+        d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+      />,
+      "closeOnEsc": true,
+      "closeOnOverlayClick": true,
+      "onClose": [MockFunction],
+      "onEntered": null,
+      "onEscKeyDown": null,
+      "onExited": null,
+      "onOverlayClick": null,
+      "open": false,
+      "showCloseIcon": true,
+      "styles": Object {},
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Account",
+          "className": "b f3",
+        },
+        "ref": null,
+        "rendered": "Account",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Account
+              fill="gray"
+              height="80"
+              width="80"
+            />,
+            <p
+              className="gray f4 pt3"
+            >
+              There is nothing here, yet.
+            </p>,
+          ],
+          "className": "h-100 w-100 flex flex-column justify-center items-center near-black",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "fill": "gray",
+              "height": "80",
+              "width": "80",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "There is nothing here, yet.",
+              "className": "gray f4 pt3",
+            },
+            "ref": null,
+            "rendered": "There is nothing here, yet.",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "animationDuration": 500,
+        "center": true,
+        "children": Array [
+          <div
+            className="b f3"
+          >
+            Account
+          </div>,
+          <div
+            className="h-100 w-100 flex flex-column justify-center items-center near-black"
+          >
+            <Account
+              fill="gray"
+              height="80"
+              width="80"
+            />
+            <p
+              className="gray f4 pt3"
+            >
+              There is nothing here, yet.
+            </p>
+          </div>,
+        ],
+        "classNames": Object {
+          "closeButton": "close-modal",
+          "modal": "h-50 w-25",
+        },
+        "classes": Object {
+          "closeButton": "styles_closeButton__20ID4",
+          "closeIcon": "styles_closeIcon__1QwbI",
+          "modal": "styles_modal__gNwvD",
+          "overlay": "styles_overlay__CLSq-",
+          "overlayCenter": "styles_overlayCenter__YHoO7",
+          "transitionEnter": "styles_transitionEnter__3j_-a",
+          "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+          "transitionExit": "styles_transitionExit__1KmEf",
+          "transitionExitActive": "styles_transitionExitActive__1nQXw",
+        },
+        "closeIconSize": 28,
+        "closeIconSvgPath": <path
+          d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+        />,
+        "closeOnEsc": true,
+        "closeOnOverlayClick": true,
+        "onClose": [MockFunction],
+        "onEntered": null,
+        "onEscKeyDown": null,
+        "onExited": null,
+        "onOverlayClick": null,
+        "open": false,
+        "showCloseIcon": true,
+        "styles": Object {},
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Account",
+            "className": "b f3",
+          },
+          "ref": null,
+          "rendered": "Account",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Account
+                fill="gray"
+                height="80"
+                width="80"
+              />,
+              <p
+                className="gray f4 pt3"
+              >
+                There is nothing here, yet.
+              </p>,
+            ],
+            "className": "h-100 w-100 flex flex-column justify-center items-center near-black",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "fill": "gray",
+                "height": "80",
+                "width": "80",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "There is nothing here, yet.",
+                "className": "gray f4 pt3",
+              },
+              "ref": null,
+              "rendered": "There is nothing here, yet.",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`<AccountModal /> when it is open should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AccountModal
+    onClose={[MockFunction]}
+    open={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "animationDuration": 500,
+      "center": true,
+      "children": Array [
+        <div
+          className="b f3"
+        >
+          Account
+        </div>,
+        <div
+          className="h-100 w-100 flex flex-column justify-center items-center near-black"
+        >
+          <Account
+            fill="gray"
+            height="80"
+            width="80"
+          />
+          <p
+            className="gray f4 pt3"
+          >
+            There is nothing here, yet.
+          </p>
+        </div>,
+      ],
+      "classNames": Object {
+        "closeButton": "close-modal",
+        "modal": "h-50 w-25",
+      },
+      "classes": Object {
+        "closeButton": "styles_closeButton__20ID4",
+        "closeIcon": "styles_closeIcon__1QwbI",
+        "modal": "styles_modal__gNwvD",
+        "overlay": "styles_overlay__CLSq-",
+        "overlayCenter": "styles_overlayCenter__YHoO7",
+        "transitionEnter": "styles_transitionEnter__3j_-a",
+        "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+        "transitionExit": "styles_transitionExit__1KmEf",
+        "transitionExitActive": "styles_transitionExitActive__1nQXw",
+      },
+      "closeIconSize": 28,
+      "closeIconSvgPath": <path
+        d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+      />,
+      "closeOnEsc": true,
+      "closeOnOverlayClick": true,
+      "onClose": [MockFunction],
+      "onEntered": null,
+      "onEscKeyDown": null,
+      "onExited": null,
+      "onOverlayClick": null,
+      "open": true,
+      "showCloseIcon": true,
+      "styles": Object {},
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Account",
+          "className": "b f3",
+        },
+        "ref": null,
+        "rendered": "Account",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Account
+              fill="gray"
+              height="80"
+              width="80"
+            />,
+            <p
+              className="gray f4 pt3"
+            >
+              There is nothing here, yet.
+            </p>,
+          ],
+          "className": "h-100 w-100 flex flex-column justify-center items-center near-black",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "fill": "gray",
+              "height": "80",
+              "width": "80",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "There is nothing here, yet.",
+              "className": "gray f4 pt3",
+            },
+            "ref": null,
+            "rendered": "There is nothing here, yet.",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "animationDuration": 500,
+        "center": true,
+        "children": Array [
+          <div
+            className="b f3"
+          >
+            Account
+          </div>,
+          <div
+            className="h-100 w-100 flex flex-column justify-center items-center near-black"
+          >
+            <Account
+              fill="gray"
+              height="80"
+              width="80"
+            />
+            <p
+              className="gray f4 pt3"
+            >
+              There is nothing here, yet.
+            </p>
+          </div>,
+        ],
+        "classNames": Object {
+          "closeButton": "close-modal",
+          "modal": "h-50 w-25",
+        },
+        "classes": Object {
+          "closeButton": "styles_closeButton__20ID4",
+          "closeIcon": "styles_closeIcon__1QwbI",
+          "modal": "styles_modal__gNwvD",
+          "overlay": "styles_overlay__CLSq-",
+          "overlayCenter": "styles_overlayCenter__YHoO7",
+          "transitionEnter": "styles_transitionEnter__3j_-a",
+          "transitionEnterActive": "styles_transitionEnterActive___eQs7",
+          "transitionExit": "styles_transitionExit__1KmEf",
+          "transitionExitActive": "styles_transitionExitActive__1nQXw",
+        },
+        "closeIconSize": 28,
+        "closeIconSvgPath": <path
+          d="M28.5 9.62L26.38 7.5 18 15.88 9.62 7.5 7.5 9.62 15.88 18 7.5 26.38l2.12 2.12L18 20.12l8.38 8.38 2.12-2.12L20.12 18z"
+        />,
+        "closeOnEsc": true,
+        "closeOnOverlayClick": true,
+        "onClose": [MockFunction],
+        "onEntered": null,
+        "onEscKeyDown": null,
+        "onExited": null,
+        "onOverlayClick": null,
+        "open": true,
+        "showCloseIcon": true,
+        "styles": Object {},
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Account",
+            "className": "b f3",
+          },
+          "ref": null,
+          "rendered": "Account",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Account
+                fill="gray"
+                height="80"
+                width="80"
+              />,
+              <p
+                className="gray f4 pt3"
+              >
+                There is nothing here, yet.
+              </p>,
+            ],
+            "className": "h-100 w-100 flex flex-column justify-center items-center near-black",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "fill": "gray",
+                "height": "80",
+                "width": "80",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "There is nothing here, yet.",
+                "className": "gray f4 pt3",
+              },
+              "ref": null,
+              "rendered": "There is nothing here, yet.",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

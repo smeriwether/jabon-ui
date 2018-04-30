@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+button {
+  border: none;
+}
+
+.h50 {
+  height: 50px;
+}
+
+.h400 {
+  height: 400px;
+}
+
+.h-10 {
+  height: 10%;
+}
+
+.h-35 {
+  height: 35%;
+}
+
+.h-40 {
+  height: 40%;
+}
+
+.h-65 {
+  height: 65%;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.h-100-h50 {
+  height: calc(100% - 50px);
+}
+
+.w60 {
+  width: 60px;
+}
+
+.w-45-w30 {
+  width: calc(45% - 30px);
+}
+
+.w-55-w30 {
+  width: calc(55% - 30px);
+}
+
+.w-100-w60 {
+  width: calc(100% - 60px);
+}
+
+#account:hover {
+  cursor: pointer;
+  fill: #EEEEEE;
+}

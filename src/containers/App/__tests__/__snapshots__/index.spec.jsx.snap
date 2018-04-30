@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App
+    axiosClient={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="h-100 w60 fl"
+        >
+          <Sidebar />
+        </div>,
+        <div
+          className="h50 w-100-w60 fl"
+        >
+          <Header
+            onSubmit={[Function]}
+          />
+        </div>,
+        <div
+          className="h-100-h50 w-55-w30 fl"
+        >
+          <Content
+            content=""
+            expanded={true}
+            onContentChange={[Function]}
+            onProjectChange={[Function]}
+            project={
+              Object {
+                "header1": Object {
+                  "key": "",
+                  "value": "",
+                },
+                "header2": Object {
+                  "key": "",
+                  "value": "",
+                },
+                "wsdlLink": "",
+              }
+            }
+            wsdlLink={undefined}
+          />
+        </div>,
+        <div
+          className="h-100-h50 w-45-w30 fl"
+        >
+          <Result
+            results={Array []}
+          />
+        </div>,
+      ],
+      "className": "h-100 w-100",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Sidebar />,
+          "className": "h-100 w60 fl",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Header
+            onSubmit={[Function]}
+          />,
+          "className": "h50 w-100-w60 fl",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Content
+            content=""
+            expanded={true}
+            onContentChange={[Function]}
+            onProjectChange={[Function]}
+            project={
+              Object {
+                "header1": Object {
+                  "key": "",
+                  "value": "",
+                },
+                "header2": Object {
+                  "key": "",
+                  "value": "",
+                },
+                "wsdlLink": "",
+              }
+            }
+            wsdlLink={undefined}
+          />,
+          "className": "h-100-h50 w-55-w30 fl",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "content": "",
+            "expanded": true,
+            "onContentChange": [Function],
+            "onProjectChange": [Function],
+            "project": Object {
+              "header1": Object {
+                "key": "",
+                "value": "",
+              },
+              "header2": Object {
+                "key": "",
+                "value": "",
+              },
+              "wsdlLink": "",
+            },
+            "wsdlLink": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Result
+            results={Array []}
+          />,
+          "className": "h-100-h50 w-45-w30 fl",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "results": Array [],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="h-100 w60 fl"
+          >
+            <Sidebar />
+          </div>,
+          <div
+            className="h50 w-100-w60 fl"
+          >
+            <Header
+              onSubmit={[Function]}
+            />
+          </div>,
+          <div
+            className="h-100-h50 w-55-w30 fl"
+          >
+            <Content
+              content=""
+              expanded={true}
+              onContentChange={[Function]}
+              onProjectChange={[Function]}
+              project={
+                Object {
+                  "header1": Object {
+                    "key": "",
+                    "value": "",
+                  },
+                  "header2": Object {
+                    "key": "",
+                    "value": "",
+                  },
+                  "wsdlLink": "",
+                }
+              }
+              wsdlLink={undefined}
+            />
+          </div>,
+          <div
+            className="h-100-h50 w-45-w30 fl"
+          >
+            <Result
+              results={Array []}
+            />
+          </div>,
+        ],
+        "className": "h-100 w-100",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Sidebar />,
+            "className": "h-100 w60 fl",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Header
+              onSubmit={[Function]}
+            />,
+            "className": "h50 w-100-w60 fl",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Content
+              content=""
+              expanded={true}
+              onContentChange={[Function]}
+              onProjectChange={[Function]}
+              project={
+                Object {
+                  "header1": Object {
+                    "key": "",
+                    "value": "",
+                  },
+                  "header2": Object {
+                    "key": "",
+                    "value": "",
+                  },
+                  "wsdlLink": "",
+                }
+              }
+              wsdlLink={undefined}
+            />,
+            "className": "h-100-h50 w-55-w30 fl",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "content": "",
+              "expanded": true,
+              "onContentChange": [Function],
+              "onProjectChange": [Function],
+              "project": Object {
+                "header1": Object {
+                  "key": "",
+                  "value": "",
+                },
+                "header2": Object {
+                  "key": "",
+                  "value": "",
+                },
+                "wsdlLink": "",
+              },
+              "wsdlLink": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Result
+              results={Array []}
+            />,
+            "className": "h-100-h50 w-45-w30 fl",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "results": Array [],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
